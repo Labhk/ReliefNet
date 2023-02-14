@@ -1,10 +1,15 @@
 import React from 'react';
 import './style.css';
+import Navbar from '../components/Navbar';
+
 
 function MainPage() {
   return (
     <>
-        <h1>Main Page</h1>
+      <Navbar/>
+      <div class = " "> 
+
+      </div>
     </>
   )
 }

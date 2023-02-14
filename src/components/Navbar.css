@@ -1,0 +1,29 @@
+.nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.comNam{
+    
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid black;
+}
+.login{
+    display: flex;
+    justify-content: flex-end;    
+    margin-right: 1%;
+    text-decoration: none;
+    transition: 0.5s ease;
+    padding: 1%;
+    
+    background-color: rgb(95, 95, 250);
+}
+.log_reg{
+    display: flex;
+    justify-content: flex-end;
+   
+}   
