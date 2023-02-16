@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+.LandingPage{
+    border: 10px solid black;
+    width: 100%;
+    height: 87vh;
+}
+.content_Landing_h{
+    border: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+}   
+.Landing_img{
+    width: 40%;
+    border: 1px solid black;
+    float:right;
+   
+}

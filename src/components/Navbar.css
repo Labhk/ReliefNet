@@ -9,7 +9,8 @@
 
 }
 .comNam{
-    
+    display:flex;
+    justify-self: left;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     border: 1px solid black;
@@ -29,3 +30,7 @@
 .log_reg{
     
 }   
+.logo{
+    width: 5%;
+    margin: 1%;
+}
