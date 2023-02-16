@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
 .nav{
     display:flex;
     width: 100%;
@@ -11,19 +13,19 @@
     margin-top: 0.5%;
     margin-bottom: 0.5%;
     border: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 .login{
-    display: flex;
-    justify-content: flex-end;    
-    margin-right: 1%;
-    text-decoration: none;
-    transition: 0.5s ease;
-    padding: 1%;
-    
-    background-color: rgb(95, 95, 250);
+    display: inline-block;
+    justify-content: space-between;
+   padding: 9px 25px;
+   background-color:blue;
+   border:none;
+   border-radius: 50px;
+   transition: all 0.3s ease 0s;
 }
 .log_reg{
-    display: flex;
-    justify-content: flex-end;
-   
+    
 }   
