@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 const Landing = () => {
   return (
     <div class="LandingPage">
-        <div >
-            <h1 class="content_Landing">Connecting <br/>Relief Camps <br/>in Crisis</h1>
+        <div class="content">
+            <h1 class="content_Landing_h">Connecting <br/>Relief Camps <br/>in Crisis</h1>
             <p>ReliefNet connects relief camps during times of<br/> crisis, making sure the most afftected people receive<br/>help when they need it the most.</p>
         </div>
         <div>
