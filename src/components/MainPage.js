@@ -20,8 +20,7 @@ function MainPage() {
       <Contact/>
       <Footer/>
       <div class = " "> 
-
-        <h1>Main Page Here</h1>
+      
       </div>
     </>
   )

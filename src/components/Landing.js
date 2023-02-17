@@ -12,7 +12,8 @@ const Landing = () => {
         </div>
         <div>
 
-        <img class="Landing_img" src="https://i.ibb.co/NCmD8Dk/My-project.png" alt="My-project" border="0"/>
+        <img class="Landing_img" src="https://i.ibb.co/zngdCTK/Landingpage-donation.png" alt="My-project" border="0"/>
+       
         </div>
        
     </div>
