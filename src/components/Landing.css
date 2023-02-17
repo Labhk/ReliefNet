@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 .LandingPage{
-    border: 10px solid black;
+    
     width: 100%;
     height: 100vh;
+    
 }
 .content_Landing_h{
     border: 1px solid black;
     font-family: 'Libre Baskerville', serif;
     font-size: 60px;
+    color: #097ea8;
 
 }   
 .Landing_img{
     width: 40%;
-    border: 1px solid black;
-    
+    border: 1px solid black;    
     padding-left:3%;
    
 }

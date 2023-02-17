@@ -1,34 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 .nav{
+    padding: 5px;
     display:flex;
     width: 100%;
-   position: fixed;
+    position: fixed;
     align-items: center;
-    border: 1px solid black;
+   
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(241, 242, 244, 0.5);
 
 }
 .comNam{
    
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-    
+    color: #3398da;
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
     font-weight: bold;
 }
 .login{
+    margin-right: 0%;
     float: right;
-   padding: 9px 25px;
-   background-color:blue;
+   padding: 7px 23px;
+   background-color:#097ea8;
    border:none;
    border-radius: 50px;
    transition: all 0.3s ease 0s;
+   font-size: 15px;
 }
-.log_reg{
-    float:right;
-}   
+  
 .logo{
     width: 2%;
     margin: 0.3%;
+}
+i{
+    color: #52afe4;
+    cursor: pointer;
+}
+.search-box{
+    display:block;
+    position:relative;
+
+   
+}
+.search-box input{
+    width:40%;
+    height:40px;
+    border: none;
+    outline: none;
+    background: #367baa;
+    border-radius:27px;
+    color: rgb(88, 171, 192);
+    font: size 20px;
+    text-align: center;
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius:30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background: green;
 }
