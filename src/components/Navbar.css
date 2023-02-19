@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 
 .nav{
+   display: inline-flex;
+    position: absolute;
     padding: 5px;
-    position: relative;
     width: 80%;  
     margin-left: 10%;
     border-radius: 30px;   
@@ -13,20 +14,37 @@
 }
 .comNam{
    
-    
+    position: absolute;
+    top: 11px;
+    left: 50px;
     color: #3398da;
     font-family: 'Libre Baskerville', serif;
     font-size: 30px;
     font-weight: bold;
 }
 .login{
-    flex: right;
+    position: absolute;
+    right: 1%;
+    top:15%;
    padding: 7px 23px;
    background-color:#097ea8;
    border:none;
-   border-radius: 50px;
+   border-radius: 27px;
    transition: all 0.3s ease 0s;
-   font-size: 15px;
+   font-size: 20px;
+   color: white;
+}
+.register{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+   padding: 7px 23px;
+   background-color:#097ea8;
+   border:none;
+   border-radius: 27px;
+   transition: all 0.3s ease 0s;
+   font-size: 20px;
+   color: white;
 }
   
 .logo{
@@ -38,9 +56,11 @@ i{
     cursor: pointer;
 }
 .search-box{
-    display:block;
-    position:relative;
-
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    color: white;
+    width: 150%;
    
 }
 .search-box input{
@@ -50,19 +70,22 @@ i{
     outline: none;
     background: #367baa;
     border-radius:27px;
-    color: rgb(88, 171, 192);
+
     font: size 20px;
     text-align: center;
+    color: white;
 }
 .search-box button{
+    position: absolute;
     cursor: pointer;
     width: 40px;
-    height: 40px;
-    border-radius:30px;
+    height: 90%;
+    border-radius:25px;
     border: none;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 6%;
+    right: 60%;
+    z-index: 400;
     transform: scale(0.9);
-    background: green;
+    background: white;
 }

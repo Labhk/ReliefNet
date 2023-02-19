@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav class ="nav">
+    <div class ="nav">
         <img class="logo" src="images\icon-removebg.png" alt="icon-removebg" border="0"/>
         <span  class = "comNam">ReliefNet</span>
 
@@ -15,15 +15,15 @@ const Navbar = () => {
 
           </form>
         </div>
-        <div className="log_reg">
+        
             <button className="login">
                 Log In
             </button>
             <button className="register">
                 Register
             </button>
-        </div>
-    </nav>
+        
+    </div>
   )
 }
 
