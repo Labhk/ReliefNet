@@ -32,20 +32,16 @@ const Navbar = () => {
   return (
       <>
         <div  className="nav">
-        <Link to="/"><button   className= "title" >Re!iefNet</button></Link>
-        <div className='right'>
-        <Link to="/add">   
-            <button className="register">
-                Be a Supplier
-            </button>
-            </Link>
-            {loginStatus()}
-            
-
+          <Link to="/"><button   className= "title" >Re!iefNet</button></Link>
+          <div className='right'>
+          <Link to="/add">   
+              <button className="register">
+                  Be a Supplier
+              </button>
+              </Link>
+              {loginStatus()}
+          </div>
         </div>
-        
-        </div>
-      
       </>
   )
 }
