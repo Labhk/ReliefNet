@@ -1,0 +1,126 @@
+.Add {
+    height: 150vh;
+    padding-left: 8%;
+}
+
+.Req {
+    height: 100vh;
+}
+.Req h1{
+    font-size: 40px;
+    font-weight: 350;
+    padding-bottom: 30px;
+}
+.Req h3{
+    font-size: 20px;
+    font-weight: 350;
+    padding-bottom: 10px;
+}
+.Req input{
+    width: 40%;
+    color: black;
+    padding: 10px;
+    padding-bottom: 80px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 10px 20px 50px 10px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.Req input::placeholder{
+    color: black;
+}
+.Req input:focus{
+    outline: none;
+}
+.send button{
+    margin-top: 2%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.send button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.Add h1{
+    font-size: 40px;
+    font-weight: 350;
+    padding-bottom: 30px;
+}
+
+.Add h2{
+    font-size: 30px;
+    font-weight: 350;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.Add input{
+    width: 30%;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.Add input::placeholder{
+    color: black;
+}
+
+.Add input:focus{
+    outline: none;
+}
+
+.fillUnit input{
+    width: 80px;  
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+.fillUnit input::placeholder{
+    color: black;
+}
+
+.fillUnit input:focus{
+    outline: none;
+}
+
+.fillUnit span{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.fillUnit p{
+    padding-left: 30px;
+    color: rgb(11, 17, 37);
+    font-size: 13px;
+    width: 140px;
+}
+
+.confirm{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.fillUnit button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.fillUnit button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+

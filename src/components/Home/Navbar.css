@@ -6,22 +6,14 @@
     max-width: 144rem;
     left: 0;
     right: 0;
-    text-align: center;
     justify-content: space-between;
 }
 
-.nav Link{
-    text-decoration: none!important;
 
-}
 
-.right{
-    margin-right: 1.5%;
-}
 
 .title{
-    font-size: 30px;
-
+    font-size: 25px;
     padding-left: 8px;
     padding-right: 8px;
     height: 38px;
@@ -33,7 +25,7 @@
 }
 
 .login{
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 8px;
     padding-right: 8px;
     height: 38px;
@@ -46,12 +38,11 @@
 }
 
 .login:hover{
-    background-color: #150c1b;
-    color: #adf1fd;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .register{
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 8px;
     padding-right: 8px;
     height: 38px;
@@ -65,7 +56,7 @@
 }
 
 .logout{
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 8px;
     padding-right: 8px;
     height: 38px;
@@ -79,13 +70,11 @@
 }
 
 .logout:hover{
-    background-color: #9e0000;
-    color: #dcdcdc;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .register:hover{
-    background-color: #150c1b;
-    color: #adf1fd;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 

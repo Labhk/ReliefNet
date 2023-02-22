@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import Navbar from '../Home/Navbar';
 import { useNavigate } from 'react-router-dom';
+import './supply.css';
 
 const url = "http://localhost:9870/addnew";
 
@@ -42,32 +43,47 @@ function AddSuppliers() {
         <>  
 
             <Navbar/>
-            <h1>addSuppliers</h1>
-            <h2>Supplier Name:</h2>
-            <input type='text' name='name' value={supplydata.name} onChange={handleChange}/>
-            <h2>Email:</h2>
-            <input type='text' name='email' value={supplydata.email} onChange={handleChange}/>
-            <h2>City:</h2>
-            <input type='text' name='city' value={supplydata.city} onChange={handleChange}/>
-            <h2>Inventory</h2>
-            <span>Food Units : </span>
-             < input type='number' step="1" name='foodCount' value={supplydata.foodCount} onChange={handleChange}/>  
-            <span>   *1 unit of stored food that can last for 2 days</span>
-            <br/>
-            <span>Water : </span>
-             < input type='number' step="1" name='waterCount' value={supplydata.waterCount} onChange={handleChange}/>  
-            <span>    *1 gallon of water container</span>
-            <br/>
-            <span>Emergency kits : </span>
-             < input type='number' step="1"name='kitCount' value={supplydata.kitCount} onChange={handleChange}/>  
-            <span>    *Kits containing first aid, medicince, torch ....</span>
-            <br/>
-            <span>Set of Clothes : </span>
-             < input type='number' step="1" name='clothCount' value={supplydata.clothCount} onChange={handleChange}/>  
-            <span>*full set with pants shirt</span>
-            <br/>
-            <button onClick={submit}>Confirm</button>
+            <div className='Add'>
+            <h1>Fill the Supplier Details</h1>
+            <div className='fill'>
+            <input type='text' name='name' value={supplydata.name} onChange={handleChange} placeholder='Enter Your Name'/>
+            </div>
+            <div className='fill'>
+            <input type='text' name='email' value={supplydata.email}  onChange={handleChange} placeholder='Enter Your Email'/>
+            </div>
+            <div className='fill'>
+            <input type='text' name='city' value={supplydata.city} onChange={handleChange} placeholder='Enter Your City '/>
+            </div>
+            <div className='fillUnit'>
+                <h2>Inventory</h2>
+                <span>Food Units : </span>
+                < input type='number' step="1" name='foodCount' style={{marginLeft:"56px"}} value={supplydata.foodCount} onChange={handleChange}/>  
+                <p>   *1 unit of stored food that can last for 2 days</p>
+                <br/>
+                <span>Water : </span>
+                < input type='number' step="1" name='waterCount' style={{marginLeft:"96px"}} value={supplydata.waterCount} onChange={handleChange}/>  
+                <p>    *1 gallon of water container</p>
+                <br/>
+                <span>Emergency kits : </span>
+                < input type='number' step="1"name='kitCount' value={supplydata.kitCount} onChange={handleChange}/>  
+                <p>*Emergency kit containing flashlight, radio, first aid kit, and emergency blankets</p>
+                <br/>
+                <span>Set of Clothes : </span>
+                < input type='number'  name='clothCount'style={{marginLeft:"35px"}} value={supplydata.clothCount} onChange={handleChange}/>  
+                <br/>
+                <div className='confirm'>
+                <button onClick={submit}>Confirm</button>
+                </div>
+                
+            </div>
 
+            
+            
+            
+            
+            
+            
+            </div>
         </>
     )
 }

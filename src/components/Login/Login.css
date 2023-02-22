@@ -1,0 +1,100 @@
+.container{
+    height: 100vh;
+}
+
+.container header{
+    font-size: 40px;
+    font-weight: 350;
+    padding-bottom: 30px;
+}
+
+.input-field input{
+    width: 30%;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.input-field input:focus {
+    border: rgb(255, 255, 255) 10px;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+
+
+.input-field input::placeholder{
+    color: rgb(0, 0, 0);
+  }
+
+.email-field{
+    padding-bottom: 25px;
+}
+
+  .button{
+    padding-top: 45px;
+}
+
+
+.button button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.button button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.enterotp input{
+    width: 20%;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.enterotp{
+    padding-bottom: 30px;
+}
+
+.enterotp input:focus{
+    outline: none;
+}
+
+.enterotp input::placeholder{
+    color: rgb(0, 0, 0);
+    
+  }
+
+.container h3{
+    font-size: 20px;
+    font-weight: 350;
+    padding-bottom: 20px;
+}
+
+.container .done{
+    padding: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 5px;
+}
+
+.container .done:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

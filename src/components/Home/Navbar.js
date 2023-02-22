@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
       <>
         <div class ="nav">
-        <Link to="/"><button  class = "title">ReliefNet</button></Link>
+        <Link to="/"><button  class = "title" >Re!iefNet</button></Link>
         <div className='right'>
         <Link to="/add">   
             <button className="register">

@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
+import './Login.css'
 
 const url = "http://localhost:5000/api/auth/login";
 const Login = () => {
@@ -54,37 +55,37 @@ const Login = () => {
       <Navbar/>
       <h1>{message}</h1>
       <div class="container" style={{fontSize:"30px"}} align="center">
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
-      <header >Login</header>
-      <form >
-        <div class="field email-field">
-          <div class="input-field" >
-            <input style={{fontSize:"20px"}} 
-              name="email"
-              placeholder="Enter your email"
-              onChange={handleChange}
-              class="email" />
-          </div>
-        </div>
-        <div class="field create-password">
-          <div class="input-field">
-            <input style={{fontSize:"20px"}}
-              type="password"
-              name="password"
-              placeholder="Enter password"
-              onChange={handleChange}
-              class="password"
-            />
-          </div>
-        </div>
-        <div class="button" onClick={handleSubmit}>
-          <input style={{fontSize:"20px"}} type="submit" value="Login" />
-        </div>
-      </form>
+        
+        <header >Login</header>
+        <form >
+            <div class="email-field">
+              <div class="input-field" >
+                <input style={{fontSize:"20px"}} 
+                  name="email"
+                  placeholder="Enter your email"
+                  onChange={handleChange}
+                  class="email"
+                  required />
+              </div>
+            </div>
+            <div class="password">
+              <div class="input-field">
+                <input style={{fontSize:"20px"}}
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                  onChange={handleChange}
+                  class="password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="button" onClick={handleSubmit}>
+              <button value="Submit" >Submit</button>
+            </div>
+        </form>
       </div>
+      
     </>
   )
 }

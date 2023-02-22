@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import { Link,useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
+import './Login.css';
 
 const otp = Math.floor(1000 + Math.random() * 9000)
 
@@ -53,19 +54,18 @@ function Verify() {
     return (
         <>  
             <Navbar/>
-            <hr/>
-            <hr/>
-            <hr/>
-            <hr/>
-            <hr/>
-            <hr/>
-      
-            <h1>Email Verification</h1>
-            <h3>Verification Code has been send to Your email</h3>
-            {message}
-            <input type='text' name="inotp" onChange={handleChange} placeholder="Enter your Code"/>
-            <button onClick={handleSubmit}>Confirm</button>
-            <Link to="/login"><button>try another email</button></Link>
+            <div className='container' align="center">
+                <header>Email Verification</header>
+                <h3>~ Verification Code has been send to Your email ~</h3>
+                {message}
+                <div className='enterotp'>
+                <input type='text' name="inotp" onChange={handleChange} placeholder="Enter your Code"/>
+                </div>
+                
+                <button className="done" onClick={handleSubmit}>Confirm</button>
+                <Link to="/login"><button className="done">Try another email</button></Link>
+            </div>
+            
         </>
     )
 }

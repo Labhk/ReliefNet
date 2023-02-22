@@ -28,7 +28,7 @@
 }
 
 .Story{
-    margin-top: 7.5%;
+    margin-top: 8.5%;
 }
 
 .Story_text{
@@ -38,7 +38,7 @@
 }
 
 .Story_head{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 40px;
     padding-bottom: 40px;
     
@@ -55,18 +55,24 @@
     width: 500px;
 }
 
+.Mission{
+    padding-bottom: 100px;
+}
 .Mission img{
     float: left;
-    width: 50%;
-    padding-right: 70px;
+    width: 55%;
 }
 
 .Mission_text{
     padding-top: 100px;
+    width: 40%;
+    float: right;
+    padding-bottom: 200px;
+    
 }
 
 .head{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 40px;
     padding-bottom: 20px;
 }
@@ -74,89 +80,32 @@
 .content2{
     font-size: 18px;
     padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+
+.Mission_text .joinButton{
+    padding-left: 30px;
 }
 
 .Mission_text button{
-    
+    padding-left: 50px;
     padding: 20px;
     font-size: 20px;
     background-color: transparent;
     border-radius: 20px;
     border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-.Mission_text button:hover{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-
-
-
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
-.LandingPage{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: #edfcff;
-}
-.content_Landing_h{
-   position: absolute;
-   top: 140px;
-   left: 170px;
-   font-family: 'Oswald', sans-serif;
-
-    font-size: 60px;
-    color: #163A59;
-    font-weight: 900;
-
-}   
-.Landing_img{
-    position: absolute;
-    top: 230px;
-    right: 50px;
-    width: 50%; 
-
-   
-
-}
-.content{
-    color: black;
-    position: absolute;
-    padding:3%;
-    font-size: 35px;
-    width: 30%;
-    top: 290px;
-    left: 150px;
-    font-family: 'Libre Baskerville', serif;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
     
 }
 
-.LandingPage button{
-    background-color: #163A59;
-    color: white;
-    font-size: 25px;
-    padding: 7px;
-    border-radius: 10px;
+.Mission_text button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.Mission{
-    height: 100vh;
-    width: 100%;
-    background-color:#dcebfc;
-}
-.heading{
-    color: #7C6C79;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    display: inline;
-    justify-content: center;
 
-} */
+
+
+
+

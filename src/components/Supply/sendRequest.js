@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../Home/Navbar';
 import { useNavigate } from 'react-router-dom';
+import './supply.css'
 
 const url = "http://localhost:5000/api/auth/sendreq";
 
@@ -40,16 +41,14 @@ function SendRequest() {
     return (
             <>
                 <Navbar/>
-                <hr/>
-                <hr/>
-                <hr/>
-                <hr/>
-                <hr/>
-                <hr/>
-                <h1>Request for Supplies</h1>
-                <h3>Send Supplier a Message </h3>
-                <input type="text" placeholder='Type Here' name='content' onChange={handleChange}/>
-                <button onClick={handleSend}>Send</button>
+                <div className='Req' align="center">
+                    <h1>Request for Supplies</h1>
+                    <h3>~ Send Supplier a Message ~</h3>
+                    <input type="text"  name='content' onChange={handleChange}/>
+                    <div className='send'><button onClick={handleSend}>Send</button></div>
+                    
+                </div>
+                
             </>
     )
 }
