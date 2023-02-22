@@ -1,11 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(120deg,rgba(59,32,92,100%) 0%,rgba(7,201,124,100%) 100%);
+    background-image: linear-gradient(140deg,rgba(7,201,124,100%) 0%,rgb(31, 18, 155) 100%);
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
     if(sessionStorage.getItem('email') !== null){
       return(
         <Link to="/">
-            <button className="login" onClick={handleLogout}>
+            <button className="logout" onClick={handleLogout}>
                 Logout
             </button>
         </Link>
@@ -30,24 +30,23 @@ const Navbar = () => {
   }
 
   return (
-    <div class ="nav">
-        <img class="logo" src="images\icon-removebg.png" alt="icon-removebg" border="0"/>
-        <Link to="/"><span  class = "comNam">ReliefNet</span></Link>
-
-        {/* <div class="search-box">
-          <form action="">
-            <input type="text" name="search" id="srch" placeholder = "Search"/>
-            <button type="submit"><i class="fa fa-search"></i></button>
-
-          </form>
-        </div> */}
-        {loginStatus()}
-         <Link to="/add">   
+      <>
+        <div class ="nav">
+        <Link to="/"><button  class = "title">ReliefNet</button></Link>
+        <div className='right'>
+        <Link to="/add">   
             <button className="register">
-                Be a Suppliers
+                Be a Supplier
             </button>
             </Link>
-    </div>
+            {loginStatus()}
+            
+
+        </div>
+        
+        </div>
+      
+      </>
   )
 }
 

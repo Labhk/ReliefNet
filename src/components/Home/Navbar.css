@@ -7,12 +7,86 @@
     left: 0;
     right: 0;
     text-align: center;
+    justify-content: space-between;
 }
 
-.logo{
-    width: 4%;
+.nav Link{
+    text-decoration: none!important;
+
 }
 
+.right{
+    margin-right: 1.5%;
+}
+
+.title{
+    font-size: 30px;
+
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 38px;
+    width: fit-content;
+    background-color: Transparent;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.login{
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 38px;
+    width: fit-content;
+    background-color: Transparent;
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+.login:hover{
+    background-color: #150c1b;
+    color: #adf1fd;
+}
+
+.register{
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 38px;
+    width: fit-content;
+    background-color: Transparent;
+    color: black;
+    margin-right: 10px;
+    
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.logout{
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 38px;
+    width: fit-content;
+    background-color: Transparent;
+    color: black;
+    margin-right: 10px;
+    
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.logout:hover{
+    background-color: #9e0000;
+    color: #dcdcdc;
+}
+
+.register:hover{
+    background-color: #150c1b;
+    color: #adf1fd;
+}
 
 
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
