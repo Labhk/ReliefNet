@@ -3,7 +3,7 @@ import "./Landing.css"
 
 import { Link } from 'react-router-dom';
 
-const url = "http://localhost:5000/api/auth/join";
+const url = "https://loginapi-production.up.railway.app/api/auth/join";
 
 const Landing = () => {
 

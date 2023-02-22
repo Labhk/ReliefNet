@@ -5,7 +5,7 @@ import axios from 'axios';
 import './suppliers.css'
 
 
-const url = "http://localhost:9870/suppliers" 
+const url = "https://supplyapi-production.up.railway.app/suppliers" 
 
 function Suppliers() {
 

@@ -3,7 +3,7 @@ import Navbar from '../Home/Navbar';
 import { useNavigate } from 'react-router-dom';
 import './supply.css'
 
-const url = "http://localhost:5000/api/auth/sendreq";
+const url = "https://loginapi-production.up.railway.app/api/auth/sendreq";
 
 function SendRequest() {
     const navigate = new useNavigate()

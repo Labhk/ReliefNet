@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
 import './Login.css'
 
-const url = "http://localhost:5000/api/auth/login";
+const url = "https://loginapi-production.up.railway.app/api/auth/login";
 const Login = () => {
 
   const navigate = useNavigate();

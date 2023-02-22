@@ -3,9 +3,11 @@ import { Link,useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
 import './Login.css';
 
+//const url = "http://localhost:5000/api/auth/otp";
+const url = "https://loginapi-production.up.railway.app/api/auth/otp";
 
 function Verify() {
-    const url = "http://localhost:5000/api/auth/otp";
+    
     const [inotp, setInotp] = useState();
     const [otp, setOtp] = useState('');
     const [message, setMessage] = useState('');
@@ -28,7 +30,7 @@ function Verify() {
         })
         .then((res) => res.json())
         .then((data) => setOtp(data.verify))
-    },[])
+    })
     
 
     

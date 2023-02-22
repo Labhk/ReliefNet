@@ -3,7 +3,7 @@ import Navbar from '../Home/Navbar';
 import { useNavigate } from 'react-router-dom';
 import './supply.css';
 
-const url = "http://localhost:9870/addnew";
+const url = "https://supplyapi-production.up.railway.app/addnew";
 
 function AddSuppliers() {
     // const [supplyarr, setSupplyarr] = useState([])
