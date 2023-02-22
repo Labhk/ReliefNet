@@ -4,7 +4,7 @@ ReliefNet provides a platform for users in need of relief supplies and those wil
 
 This is a React Project.
 
-#Getting Started
+# Getting Started
 
 First, Fork this Project and clone it on your system.
 
@@ -22,13 +22,13 @@ The `public/` directory contains all public entities such as images, icons, favi
 
 The `package.json` contains all dependencies used.
 
-##Front-End
+## Front-End
 
 The `/src` contains all the functions(.js files) , style sheets(.css files) and others
 
 Stylings is done using CSS.
 
-##Backend
+## Backend
 
 The Backend done using two APIs 
 - Suppliers API - For adding supplier details and getting all supplier list.
@@ -38,7 +38,7 @@ The Source Code for both API is in `/backend` folder
 
 Both APIs are Deployed
 
-##Deployed on Nelify
+## Deployed on Nelify
 
 The easiest way to deploy your React.js app is to use the [Netlify](https://docs.netlify.com/) from the creators of React.js.
 
