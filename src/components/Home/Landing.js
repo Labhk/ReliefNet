@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Landing.css"
 
 import { Link } from 'react-router-dom';
@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 const url = "https://loginapi-production.up.railway.app/api/auth/join";
 
 const Landing = () => {
+
+  const [join, setJoin] = useState("Join us")
 
   const handleJoin = () => {
     if (sessionStorage.getItem('email') === null){
@@ -20,6 +22,7 @@ const Landing = () => {
         },
         body:JSON.stringify({"email":email})
       })
+      .then( setJoin("Invitation Sent"))
     }
     
   
@@ -48,7 +51,7 @@ const Landing = () => {
 
       <div  className="content2" >Our community goal is to provide relief to as many people as possible, and we welcome any help to achieve this objective. If you share our commitment to helping others and making a positive impact, we invite you to join us.</div>
       <div className='joinButton'>
-      <button onClick={handleJoin} align="center">Join us</button>
+      <button onClick={handleJoin} align="center">{join}</button>
       </div>
     </div>
       

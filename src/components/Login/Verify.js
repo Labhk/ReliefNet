@@ -5,17 +5,22 @@ import './Login.css';
 
 //const url = "http://localhost:5000/api/auth/otp";
 const url = "https://loginapi-production.up.railway.app/api/auth/otp";
+const otp = Math.floor(1000 + Math.random() * 9000);
 
 function Verify() {
     
-    const [inotp, setInotp] = useState();
-    const [otp, setOtp] = useState('');
+    const [inotp, setInotp] = useState('');
+    
     const [message, setMessage] = useState('');
 
     const navigate = useNavigate();
 
     let email = sessionStorage.getItem('email')
+    let jsondata = {
+        otp: otp,
+        email: email
 
+    }
 
 
     useEffect(() => {
@@ -25,12 +30,10 @@ function Verify() {
                 'accept':'application/json',
                 'Content-Type':'application/json'
             },
-            body:JSON.stringify({"email":email})
+            body:JSON.stringify(jsondata)
             
         })
-        .then((res) => res.json())
-        .then((data) => setOtp(data.verify))
-    })
+    },[])
     
 
     
