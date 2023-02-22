@@ -35,7 +35,7 @@ function Suppliers() {
                     return(
                         <>
                             <Link to="/send">
-                            <div class="card" key={_id} onClick={(e) => {sessionStorage.setItem('supplerEmail',email)}}>
+                            <div  className="card" key={{_id}} onClick={(e) => {sessionStorage.setItem('supplerEmail',email)}}>
                                 <h2 className='sname'>Supplier Name : {name}</h2>
                                 <h2 className='city'>City : {city}</h2>
                                 <h2  style={{paddingTop:"10px",paddingBottom:"10px"}}> Inventory   </h2>

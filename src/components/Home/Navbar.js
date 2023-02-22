@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (
       <>
-        <div class ="nav">
-        <Link to="/"><button  class = "title" >Re!iefNet</button></Link>
+        <div  className="nav">
+        <Link to="/"><button   className= "title" >Re!iefNet</button></Link>
         <div className='right'>
         <Link to="/add">   
             <button className="register">

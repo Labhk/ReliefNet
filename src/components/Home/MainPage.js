@@ -4,16 +4,11 @@ import Navbar from './Navbar';
 import Landing from './Landing';
 
 
-
-
 function MainPage() {
   return (
     <>
       <Navbar/>
       <Landing/>
-      <div class = " "> 
-      
-      </div>
     </>
   )
 }

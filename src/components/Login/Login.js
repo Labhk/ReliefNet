@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
 import './Login.css'
@@ -54,33 +54,33 @@ const Login = () => {
     <>
       <Navbar/>
       <h1>{message}</h1>
-      <div class="container" style={{fontSize:"30px"}} align="center">
+      <div  className="container" style={{fontSize:"30px"}} align="center">
         
         <header >Login</header>
         <form >
-            <div class="email-field">
-              <div class="input-field" >
+            <div  className="email-field">
+              <div  className="input-field" >
                 <input style={{fontSize:"20px"}} 
                   name="email"
                   placeholder="Enter your email"
                   onChange={handleChange}
-                  class="email"
+                   className="email"
                   required />
               </div>
             </div>
-            <div class="password">
-              <div class="input-field">
+            <div  className="password">
+              <div  className="input-field">
                 <input style={{fontSize:"20px"}}
                   type="password"
                   name="password"
                   placeholder="Enter password"
                   onChange={handleChange}
-                  class="password"
+                   className="password"
                   required
                 />
               </div>
             </div>
-            <div class="button" onClick={handleSubmit}>
+            <div  className="button" onClick={handleSubmit}>
               <button value="Submit" >Submit</button>
             </div>
         </form>

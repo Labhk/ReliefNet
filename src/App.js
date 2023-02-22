@@ -4,8 +4,8 @@ import MainPage from "./components/Home/MainPage";
 import Login from "./components/Login/Login";
 import Verify from "./components/Login/Verify";
 import Suppliers from "./components/Supply/Suppliers";
-import AddSuppliers from "./components/Supply/addSuppliers";
-import SendRequest from "./components/Supply/sendRequest";
+import AddSuppliers from "./components/Supply/AddSuppliers";
+import SendRequest from "./components/Supply/SendRequest";
 
 function App() {
   return (

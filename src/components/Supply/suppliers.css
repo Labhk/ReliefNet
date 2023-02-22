@@ -24,6 +24,10 @@
     width: 25%;
 }
 
+.card:hover{
+    transform: scale(1.1)
+}
+
 .card h2{
     font-size: 20px;
     font-weight: 400;

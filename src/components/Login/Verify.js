@@ -3,22 +3,17 @@ import { Link,useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar';
 import './Login.css';
 
-const otp = Math.floor(1000 + Math.random() * 9000)
 
 function Verify() {
     const url = "http://localhost:5000/api/auth/otp";
-    const [inotp, setInotp] = useState('');
+    const [inotp, setInotp] = useState();
+    const [otp, setOtp] = useState('');
     const [message, setMessage] = useState('');
 
     const navigate = useNavigate();
 
     let email = sessionStorage.getItem('email')
-    let jsondata = {
-        otp: otp,
-        email: email
 
-    }
-    console.log(otp,inotp)
 
 
     useEffect(() => {
@@ -28,10 +23,12 @@ function Verify() {
                 'accept':'application/json',
                 'Content-Type':'application/json'
             },
-            body:JSON.stringify(jsondata)
+            body:JSON.stringify({"email":email})
+            
         })
-
-    })
+        .then((res) => res.json())
+        .then((data) => setOtp(data.verify))
+    },[])
     
 
     
@@ -42,7 +39,8 @@ function Verify() {
     }
 
     const handleSubmit = () => {
-        if(inotp == otp){
+        console.log(otp, inotp)
+        if(inotp === String(otp)){
             navigate('/')
         }else{
             setMessage("Incorrect Code!!!")
